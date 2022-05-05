@@ -1,0 +1,23 @@
+{
+    "name": "dvdfab/crypt",
+    "description": "账户管理系统解密包",
+    "version": "1.0.0",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Dvdfab\\Crypt\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "junchi.ren",
+            "email": "junchi.ren@goland.cn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php": ">=7.2.0",
+      "ext-json": "*",
+      "ext-openssl": "*"
+    }
+}
